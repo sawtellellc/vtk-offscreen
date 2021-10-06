@@ -7,6 +7,11 @@
 bash build.sh
 ```
 
++ versions used:
+```
+ubuntu-18.04 mesa-18.1.7 vtk-9.0.1
+```
+
 + test out vtk
 
 ```
@@ -16,7 +21,7 @@ ls -lh *.png
 
 ```
 
-## reference
+## references
 
 ```
 https://gist.github.com/nestarz/4d41986b29e55bd2a7a870ee0777f3f5
