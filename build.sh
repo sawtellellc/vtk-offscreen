@@ -1,1 +1,1 @@
-docker build -t offscreen-vtk .
+docker build -t vtk-offscreen .

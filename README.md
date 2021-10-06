@@ -7,6 +7,15 @@
 bash build.sh
 ```
 
++ test out vtk
+
+```
+docker run -it vtk-offscreen bash
+docker run -it -w /workdir -v $PWD:/workdir vtk-offscreen bash -c "python test_offscreen.py"
+
+ls -lh *.png
+
+```
 
 ## reference
 
