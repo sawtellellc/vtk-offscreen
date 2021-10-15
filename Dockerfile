@@ -89,7 +89,7 @@ ENV PYTHONPATH $VTK_BUILD/bin
 
 RUN rm /usr/bin/python && ln -s /usr/local/bin/vtkpython /usr/bin/python
 
-RUN apt-get update && apt-get -y install python3-pip ffmpeg && pip3 install pillow numpy moviepy
+RUN apt-get update && apt-get -y install python3-pip ffmpeg && pip3 install pillow numpy moviepy SimpleITK
 
 WORKDIR /opt
 COPY test_offscreen.py /opt

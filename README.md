@@ -1,5 +1,5 @@
 
-## vtk offscreen Dockerfile
+## offscreen VTK docker container
 
 + build container
 
